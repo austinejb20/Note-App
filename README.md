@@ -1,0 +1,15 @@
+# Note App
+- A responsive note-taking application designed to help users save, search, and manage notes.
+- ## Features
+- Create and manage notes
+- Search notes instantly
+- Edit and delete notes
+- Responsive design
+- Clean and moden UI
+- Simple and user-friendly interface
+- ## Technology Used
+- HTML
+- CSS
+- JavaScript
+- ## Author
+- Austine
