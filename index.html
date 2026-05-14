@@ -1,0 +1,50 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Notes</title> 
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar">
+  <h2>Simple Notes</h2>
+  <input type="text" id="searchInput" placeholder="Search notes...">
+</div>
+
+<div class="container">
+
+  <!-- CREATE NOTE -->
+   
+  <div class="create-box">
+    <h3>Create New Note</h3>
+    <textarea id="descInput" placeholder="Write your note..."></textarea>
+      
+<!--  -->
+    <div class="buttons">
+
+    <button id="addBtn">Add Note</button>
+    <button id="cancelBtn">Cancel</button>
+    </div>
+
+  </div>
+   
+ 
+  <h2 class="note-title">Notes List</h2>
+
+  <!-- NOTES -->
+  <div id="notesContainer" class="notes">
+
+  </div>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
+ 
+
+
